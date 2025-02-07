@@ -1,0 +1,14 @@
+1. REACTIVITY TRONG VUEJS
+- REACTIVITY là cơ chế theo dõi và cập nhật giao diện khi dữ liệu thay đổi
+- Single page application là giao diện chỉ cập nhật dữ liệu thay đổi, không load lại trang
+- REACTIVITY giúp cập nhật các thành phần giao diện khi dữ liệu thay đổi
+- Sử dụng Virtual DOM để hiển thi giao diện
+
+//Cách khai báo Reactive state trong VUEJS
+Sử dụng Composition API: dùng hàm ref() hoặc reactive()
++ ref() nhận đối số trả về giá trị tuộc tính .value
++ ref() thường dùng cho các kiểu dữ liệu nguyên thủy như số, chuỗi, boolearn...
+
++reactive() Chỉ áp dụng cho dữ liệu kiểu đối tượng (object)
++reactive() ko chấp nhận chuỗi, số, boolearn,...
++reactive() ko dùng tuộc tính .value

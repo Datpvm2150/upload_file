@@ -1,0 +1,18 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "nam11",
+      "age": 17,
+      "email": "nam@gmail.com",
+      "image": "https://media-cdn-v2.laodong.vn/storage/newsportal/2023/8/26/1233821/Giai-Nhi-1--Nang-Tre.jpg"
+    },
+    {
+      "id": "2",
+      "name": "nam1",
+      "age": 20,
+      "email": "nam1@gmail.com",
+      "image": "https://media-cdn-v2.laodong.vn/storage/newsportal/2023/8/26/1233821/Giai-Nhi-1--Nang-Tre.jpg"
+    }
+  ]
+}

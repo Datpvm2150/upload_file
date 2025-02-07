@@ -1,0 +1,18 @@
+DATA BINDING TRONG VUEJS
+-DATA BINDING(ràng buộc dữ liệu)
+-là cơ chế cho phép thiết lập liên kết giữa phần code logic(js/css) về giao diện(html)
+-Data binding giúp giao diện tự cập nhật khi dữ liệu thay đổi
+
+CÁC LOẠI DATA BINDING TRONG VUEJS
+1. Binding 1 chiều: Nội suy, Thuộc tính, sự kiện
+- Nội suy : <p>{{name}}</p>
+- Thuộc tính: <img v-bind:src="imgSrc"/>
+- Sự kiện: <button click="">Thêm</button>
+2.Binding 2 chiều: v-model
+
+BÀI TẬP:
+Khai báo 1 đối tượng sinh viên: tên, tuổi, lớp học, GPA
+-Hiển thị thông tin sinh viên ra màn hình
+-Thêm 1 ô input để thay đổi họ tên sinh viên
+-Thêm 1 button, khi click vào hiển thị họ tên sinh viên dưới dạng alert
+-Thêm 1 button, khi click tính năm sinh của sinh viên và hiển thị ra alert

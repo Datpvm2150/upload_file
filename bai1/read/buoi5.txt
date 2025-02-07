@@ -1,0 +1,8 @@
+hiển thị có điều kiện : v-if, v-else-if, v-else, v-show 
+- là 1 kỹ thuật trong phần giao diện web . có thể hiển thị hoặc ẩn 1 phần giao diện dựa trên điều kiện
+
+list rendering : vòng lặp trên giao diện v-for 
+-v-for vòng Lặp 
+- v-for với object 
+- v-for với template 
+- v-for phân dã (destructuring)

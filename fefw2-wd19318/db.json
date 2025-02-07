@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Nguyễn Đức Anh",
+      "email": "john@example.com"
+    },
+    {
+      "id": "2",
+      "name": "Phạm Văn Mạnh Đạt",
+      "email": "jane@example.com"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "BOOK1",
+      "content": "Sách lập trình",
+      "desc": "Sách dạy học lập trình"
+    },
+    {
+      "id": "2",
+      "title": "BOOK2",
+      "content": "Sách nấu ăn",
+      "desc": "Sách dạy học nấu ăn"
+    },
+    {
+      "id": "3",
+      "title": "BOOK3",
+      "content": "Sách kinh doanh",
+      "desc": "Sách dạy học kinh doanh"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "name": "Nguyễn Đức Anh",
+      "age": "20",
+      "email": "john@example.com",
+      "image": "https://sme.hust.edu.vn/wp-content/uploads/2022/02/Avatar-Facebook-trang.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Phạm Văn Mạnh Đạt",
+      "age": "20",
+      "email": "jane@example.com",
+      "image": "https://sme.hust.edu.vn/wp-content/uploads/2022/02/Avatar-Facebook-trang.jpg"
+    }
+  ]
+}

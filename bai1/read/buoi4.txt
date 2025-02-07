@@ -1,0 +1,20 @@
+DATA BINDING trong vuejs
+- Data binding (ràng buộc dữ liệu) là 1 khái niệm quan trọng trong vuejs
+- Nó có cơ chế cho phép thiết lập liên kết giữa code model - logic(js/css) và giao diện(html)
+- Data binding sẽ giúp giao diện tự cập nhật khi dữ liệu thay đổi
+
+1. Có 2 loại data binding
+ - Binding 1 chiều : Nội suy, thuộc tính, sự kiện:
+  + Nội suy: <p>{{ name }}</p>
+  + Thuộc tính: <img v-binding.src="imgsrc"> </img>
+  + Sự kiện: <button @click="Hello('Anh White')"> </button>
+ - Binding 2 chiều : Gắn kết 2 chiều: <input v-model="inputValue" />
+
+2. Directive: à thuộc tính đặc biệt trong Vue và nó bắt đầu bằng v-
+ - Mỗi directive cung cấp 1 tính năng riêng hỗ trợ code dễ dàng hơn​
+
+ Bài tập : khai báo 1 đối tượng sinh viên: tên tuổi lớp học gpa
+- hiển thị thông tin sinh viên ra màn hình 
+- thêm 1 ô input để thay đổi thông tin họ tên sinh viên 
+- thêm 1 button , khi click vào sẽ hiển thị điển gpa dười dang poprup
+- thêm 1 button , khi click vào sẽ hiển thị tính năm sinh của sinh viên dưới dạng poprup

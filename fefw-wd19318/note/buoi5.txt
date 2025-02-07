@@ -1,0 +1,17 @@
+CONDITIONAL RENDERING (hiển thị có điều kiện): v-if, v-else-if, v-else, v-show
+- Là 1 kỹ thuật trong giao diện web, có thể hiển thị hoặc ẩn 1 phần giao diện dựa trên điều kiện
+
+- So sánh v-if và v-show: Đối với giao diện người dùng thì v-if và v-show đều trả cùng 1 kết quả
++ v-if: Render khi điều kiện đúng, và hủy phần tử khi điều kiện sai!
+        Hiệu suất tốt cho trường hợp ií thay đổi điều kiện
+        Sử dụng khi cần giảm tài nguyên
++ v-show: Render ra toàn bộ nhưng sẽ thay đổi thuộc tính display của phần tử để hiển thị
+          Hiệu suất tốt hơn khi điều kiện thay đổi thường xuyên
+          Sử dụng khi điều kiện thay đổi thường xuyên; tránh việc tái tạo lại
++ Lưu ý: v-show không đi cùng v-else 
+
+LIST RENDERING: vòng lặp trên giao diện với v-for
+- v-for:mảng
+- v-for:obj
+- v-for:template
+

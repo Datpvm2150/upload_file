@@ -1,0 +1,29 @@
+{
+  "name": "fefw-wd19318",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix",
+    "serve-db": "json-server --watch db.json --port 3000",
+    "serve": "concurrently \"npm run dev\" \"npm run serve-db\""
+  },
+  "dependencies": {
+    "axios": "^1.7.8",
+    "bootstrap": "^5.3.3",
+    "json-server": "^1.0.0-beta.3",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "concurrently": "^9.1.0",
+    "eslint": "^9.14.0",
+    "eslint-plugin-vue": "^9.30.0",
+    "vite": "^5.4.10"
+  }
+}

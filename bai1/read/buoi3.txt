@@ -1,0 +1,19 @@
+// reactivity trong vuejs
+reactivity là cơ chế theo dõi và cập nhât dao diện tự động khi dữ liệu thay đỏi
+-single page applicationn 
+  + reactive state: trạng thái dữ liệu trong vue đc quan lí theo reactive system, giúp cập nhật cã thành phần của dao diện người dùng khi dữ liệu thay đổi
+  + sử dụng virtual DOM để hiển thị (rênnder) dao diện khi trạng tháu thay đổi
+
+
+Cách khai báo reactivity trogn vue .js
+-   API: sử dụng công thức data()
+--composition API: sử dụng các hàm ref() hoặc reactive() - dùng vue3 - cách sử dụng chính khi học
+  +ref(): nhận 1 đổi số và trả về giá trị có thuộc tính .value
+  +ref() : thường sử dụng cho các kiểu số liệu có
+  + ref() : nhận một đối tượng và trả về một giá trị có thuộc tính giá trị value
++ ref() :Thường sử dụng cho các kiểu dữ liệu nguyên thủy như số , chuỗi, boolean,....
+
++ reactive() : là cách thứ hai để khai báo dữ liệu ứng trong vue
++ reactive() : chỉ áp dụng cho dữ liệu Dối tượng
++ reactive() :Không chấp nhận chuỗi số boolean
++ reactive() : Khác với ref() Là không dùng thuộc tính value
